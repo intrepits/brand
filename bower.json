@@ -1,0 +1,20 @@
+{
+  "name": "intrepits-brand",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Andrés Smerkin <andres.smerkin@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mdriess/magnolia-trusted-agents",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.5"
+  }
+}

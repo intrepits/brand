@@ -1,0 +1,53 @@
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif: Raleway, Arial, sans-serif !default;
+$font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:       $font-family-sans-serif !default;
+
+// Pixel value used to responsively scale all typography. Applied to the `<html>` element.
+$font-size-root: 20px !default;
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+$gray-dark:                 #564f51 !default;
+$gray:                      #564f51 !default;
+$gray-light:                #818a91 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f7f7f9 !default;
+
+$brand-primary:             #4fbbea !default;
+$brand-success:             #9ece73 !default;
+$brand-info:                #5E72ED !default;
+$brand-warning:             #FFAC4E !default;
+$brand-danger:              #FF664E !default;
+$brand-inverse:             $gray-dark !default;
+
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+
+$line-height-lg:         (4 / 3) !default;
+$line-height-sm:         1.5 !default;
+
+$border-radius:          .15rem !default;
+$border-radius-lg:       $border-radius !default;
+$border-radius-sm:       $border-radius !default;
+
+$component-active-color: #fff !default;
+$component-active-bg:    $brand-primary !default;
+
+$caret-width:            .3em !default;
+$caret-width-lg:         $caret-width !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:    #fff !default;
+$body-color: $gray-dark !default;
