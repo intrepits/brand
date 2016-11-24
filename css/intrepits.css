@@ -4905,7 +4905,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .btn {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.8rem;
   letter-spacing: 0.05rem; }
   .btn.btn-lg, .btn-group-lg > .btn {
