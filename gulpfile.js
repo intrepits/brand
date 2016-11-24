@@ -9,8 +9,8 @@ var browserSync = require('browser-sync').create();
  *
  */
 gulp.task('sass', () => {
-	return gulp.src('src/scss/intrepits.scss')
-		.pipe(sass())
+	return gulp.src(['src/scss/intrepits.scss', 'src/scss/brand.scss'])
+		.pipe(sass().on('error', sass.logError))
 		.pipe(gulp.dest('dist/css'))
         .pipe(browserSync.stream());
 })
